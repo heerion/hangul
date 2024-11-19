@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HANGUL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>HANGUL</h1>
+
+  <!-- 자음/모음 부분 -->
+  <section id="alphabet-section">
+    <h2>Click to Hear Korean Letters</h2>
+    <div id="consonants">
+      <button class="letter" data-sound="g">ㄱ</button>
+      <button class="letter" data-sound="n">ㄴ</button>
+      <button class="letter" data-sound="d">ㄷ</button>
+      <button class="letter" data-sound="l">ㄹ</button>
+      <button class="letter" data-sound="m">ㅁ</button>
+      <button class="letter" data-sound="b">ㅂ</button>
+      <button class="letter" data-sound="s">ㅅ</button>
+      <button class="letter" data-sound="a">ㅇ</button>
+      <button class="letter" data-sound="j">ㅈ</button>
+      <button class="letter" data-sound="ch">ㅊ</button>
+      <button class="letter" data-sound="k">ㅋ</button>
+      <button class="letter" data-sound="t">ㅌ</button>
+      <button class="letter" data-sound="p">ㅍ</button>
+      <button class="letter" data-sound="h">ㅎ</button>
+    </div>
+
+    <div id="vowels">
+      <button class="letter" data-sound="a">ㅏ</button>
+      <button class="letter" data-sound="eo">ㅓ</button>
+      <button class="letter" data-sound="o">ㅗ</button>
+    </div>
+  </section>
+
+  <!-- 단어 암기 부분 -->
+  <section id="quiz-section">
+    <h2>Word test</h2>
+    <p id="question"></p>
+    <input type="text" id="answer" placeholder="Type your answer here">
+    <button id="check-answer">Check Answer</button>
+    <p id="result"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
