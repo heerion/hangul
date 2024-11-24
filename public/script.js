@@ -8,11 +8,19 @@ document.querySelectorAll(".letter").forEach(button => {
   });
   
   // 단어 암기 퀴즈
-  const words = [
-    { english: "apple", korean: "사과" },
-    { english: "hello", korean: "안녕하세요" },
-    { english: "book", korean: "책" },
-  ];
+  // const words = [
+  //   { english: "apple", korean: "사과" },
+  //   { english: "hello", korean: "안녕하세요" },
+  //   { english: "book", korean: "책" },
+  // ];
+  
+  // const words = mysql.createConnection({
+  //   host: 'localhost',
+  //   user: 'root',
+  //   password: 'im@09181015',
+  //   database: 'hangul',
+  // });;
+
   
   let currentIndex = 0;
   let currentLanguage = "english"; // 시작 언어
